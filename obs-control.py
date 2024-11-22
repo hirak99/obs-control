@@ -33,7 +33,6 @@ import logging
 import pathlib
 import websocket
 
-import typing
 from typing import Any
 
 # Generate or read the password from OBS Studio's Websocket Server Settings.
