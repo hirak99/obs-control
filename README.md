@@ -1,4 +1,4 @@
-# Standalons Script for OBS Shortcuts
+# Standalone Script for OBS Shortcuts
 
 # Why?
 
