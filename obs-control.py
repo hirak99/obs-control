@@ -3,8 +3,8 @@
 # Copyright 2024 Google LLC.
 # SPDX-License-Identifier: Apache-2.0
 
-# Shared here - https://gist.github.com/hirak99/6c710b62e6df67ca27e8ed798540cdd4
-
+# Standalone Python Script to control OBS with OBS Websockets
+# -----------------------------------------------------------
 # How to use -
 #   Add shortcuts to this with args -
 #     Alt+Shift+S '... --request ToggleStream'
