@@ -31,7 +31,7 @@ import hashlib
 import json
 import logging
 import pathlib
-import websocket
+import websocket  # Needs python-websocket-client
 
 from typing import Any
 
