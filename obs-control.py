@@ -14,10 +14,8 @@
 #   With Wayland KDE as of 202408, the shortcuts set from OBS cannot work without focus.
 #   As a workaround, we use websockets and this file set as shortcuts to control it.
 # Status of OBS with websockets plugin -
-#   As a workaround, OBS with websockets can be controlled with a global KDE shortcut.
-#   However, the obs-studio package on arch does not support it.
-#   And obs-studio-git is a pain to compile since it needs downgraded ffmpeg-headers.
-#   Hence I just used the obs-studio-stable package from Chaotic AUR.
+#   OBS with websockets is now available on Arch official repo!
+#   (Earlier, obs-studio-stable was the alternative that I used.)
 # Status of python OBS websockets -
 #   There are two repos: obsws and python-obs-websocket.
 #   The first one is not available in AUR.
