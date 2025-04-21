@@ -40,7 +40,7 @@ from typing import Any
 _OBS_PASSWORD_FILE = "obs-password.txt"
 
 # This is incremented after each request.
-_REQUEST_ID = 0
+_request_id = 0
 
 
 @functools.cache
@@ -89,9 +89,9 @@ def _connect_and_authenticate() -> websocket.WebSocket:
 def _send_request(
     ws: websocket.WebSocket, request_type: str
 ) -> tuple[bool, dict[str, Any]]:
-    global _REQUEST_ID
-    request_id = f"obs-control-{_REQUEST_ID}"
-    _REQUEST_ID += 1
+    global _request_id
+    request_id = f"obs-control-{_request_id}"
+    _request_id += 1
     start_streaming_request = {
         "op": 6,  # Request
         "d": {
